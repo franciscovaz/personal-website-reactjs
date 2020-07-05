@@ -12,7 +12,7 @@ export default createGlobalStyle`
     background: #312e38;
     color: #fff;
     -webkit-font-smoothing: antialiased;
-    font-family: 'PT Sans Narrow', serif;
+    font-family: 'PT Sans Narrow', sans-serif;
     font-size: 16px;
   }
 

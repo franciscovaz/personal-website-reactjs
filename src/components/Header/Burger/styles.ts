@@ -11,7 +11,7 @@ export const StyledBurger = styled.div<BurgerProps>`
   top: 30px;
   right: 20px;
 
-  z-index: 20;
+  z-index: 30;
   display: none;
 
   @media (max-width: 930px) {

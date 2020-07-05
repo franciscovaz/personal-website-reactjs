@@ -40,7 +40,7 @@ export const Container = styled.ul<RightNavProps>`
     right: 0;
     height: 100vh;
     width: 100%;
-    padding-top: 3.5rem;
+    padding-top: 2rem;
     transition: transform 0.3s ease-in-out;
 
     li {
