@@ -8,11 +8,19 @@ interface UserContextDTO {
 const UserNameContext = createContext<UserContextDTO>({} as UserContextDTO);
 
 const UserNameProvider: React.FC = ({ children }) => {
-  const [user, setUser] = useState('');
+  const [user, setUser] = useState(() => {
+    const userName = localStorage.getItem('@FranciscoVazWebsite:user');
+
+    if (userName) {
+      return userName;
+    }
+
+    return '';
+  });
 
   const setUserName = useCallback(name => {
+    localStorage.setItem('@FranciscoVazWebsite:user', name);
     setUser(name);
-    console.log('Vou setar o User: ', name);
   }, []);
 
   return (
