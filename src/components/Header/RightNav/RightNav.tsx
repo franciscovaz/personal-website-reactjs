@@ -15,23 +15,22 @@ const RightNav: React.FC<RightNavProps> = ({ open }) => {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/">About</Link>{' '}
+        <Link to="/">About</Link>
       </li>
       <li>
-        <Link to="/">Skills</Link>{' '}
+        <Link to="/">Skills</Link>
       </li>
       <li>
-        {' '}
-        <Link to="/">Association</Link>{' '}
+        <Link to="/">Association</Link>
       </li>
       <li>
-        <Link to="/">Projects</Link>{' '}
+        <Link to="/">Projects</Link>
       </li>
       <li>
-        <Link to="/">Articles</Link>{' '}
+        <Link to="/">Articles</Link>
       </li>
       <li>
-        <Link to="/">Contact</Link>{' '}
+        <Link to="/">Contact</Link>
       </li>
       <SocialNetWork>
         <li>
@@ -40,7 +39,7 @@ const RightNav: React.FC<RightNavProps> = ({ open }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FiGithub />
+            <FiGithub size={20} />
           </a>
         </li>
         <li>
@@ -49,7 +48,7 @@ const RightNav: React.FC<RightNavProps> = ({ open }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FiLinkedin />
+            <FiLinkedin size={20} />
           </a>
         </li>
       </SocialNetWork>

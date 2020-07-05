@@ -10,7 +10,7 @@ export const Container = styled.ul<RightNavProps>`
   flex-flow: row nowrap;
 
   li {
-    padding: 18px 10px;
+    padding: 18px 25px;
 
     a {
       text-decoration: none;
@@ -18,7 +18,7 @@ export const Container = styled.ul<RightNavProps>`
       color: #fff;
 
       font-weight: 700;
-      font-size: 0.9rem;
+      font-size: 20;
       letter-spacing: 0.1rem;
 
       &.active,
@@ -28,7 +28,7 @@ export const Container = styled.ul<RightNavProps>`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 930px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,7 +52,7 @@ export const Container = styled.ul<RightNavProps>`
         color: #fff;
 
         font-weight: 700;
-        font-size: 0.9rem;
+        font-size: 20px;
         letter-spacing: 0.1rem;
 
         &.active,

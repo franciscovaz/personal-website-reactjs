@@ -13,6 +13,7 @@ export default createGlobalStyle`
     color: #fff;
     -webkit-font-smoothing: antialiased;
     font-family: 'PT Sans Narrow', serif;
+    font-size: 16px;
   }
 
   button {
