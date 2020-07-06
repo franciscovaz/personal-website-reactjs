@@ -12,37 +12,37 @@ const App: React.FC = () => {
       <UserNameProvider>
         <Routes />
         <GloablStyles />
-      </UserNameProvider>
-      <Particles
-        /* style={{position: "fixed",
+        <Particles
+          /* style={{position: "fixed",
         width: '100%',
         height: '100%',
         z-index: '10',
         pointer-events: 'none'}} */
-        params={{
-          particles: {
-            number: {
-              value: 50,
-            },
-            size: {
-              value: 3,
-            },
-          },
-          interactivity: {
-            events: {
-              onhover: {
-                enable: true,
-                mode: 'repulse',
+          params={{
+            particles: {
+              number: {
+                value: 50,
+              },
+              size: {
+                value: 3,
               },
             },
-          },
-          background: {
-            color: {
-              value: '#000',
+            interactivity: {
+              events: {
+                onhover: {
+                  enable: true,
+                  mode: 'repulse',
+                },
+              },
             },
-          },
-        }}
-      />
+            background: {
+              color: {
+                value: '#000',
+              },
+            },
+          }}
+        />
+      </UserNameProvider>
     </>
   );
 };

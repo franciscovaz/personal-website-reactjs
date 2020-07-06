@@ -3,6 +3,7 @@ import { Container } from './styles';
 
 import Header from '../../components/Header';
 import Photo from '../../components/Photo';
+import About from '../../components/About';
 
 const Home: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const Home: React.FC = () => {
       <Container>
         <Header />
         <Photo />
+        <About />
       </Container>
     </>
   );
