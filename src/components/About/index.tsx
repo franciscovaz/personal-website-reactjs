@@ -1,6 +1,12 @@
 import React from 'react';
 
-import { Container, AboutInfo, Timeline, SectionTitle } from './styles';
+import {
+  Container,
+  AboutInfo,
+  Timeline,
+  SectionTitle,
+  TimelineContent,
+} from './styles';
 
 const About: React.FC = () => {
   return (
@@ -51,7 +57,93 @@ const About: React.FC = () => {
           </i>
         </p>
       </AboutInfo>
-      <Timeline />
+      <Timeline>
+        <ul>
+          <li>
+            <TimelineContent>
+              <h3>Altice Labs</h3>
+              <p>Frontend Developer - Angular 8 + Bootstrap</p>
+            </TimelineContent>
+            <div className="time">
+              <h4>2019 - present</h4>
+            </div>
+          </li>
+
+          <li>
+            <TimelineContent>
+              <h3>Self-taught</h3>
+              <p>Angular + Bootstrap 4: Build an app to regist occurences </p>
+              <p>
+                HTML5 + CSS3 + Javascript: My personal website (where you are
+                now)
+              </p>
+              <p>
+                React | React Native | Node.js: Build some projects in the 10
+                Edition of GoStack - RocketSeat (On Going)
+              </p>
+              <p>
+                2017: Build Wordpress website to Soluções Electrónicas:
+                <a
+                  href="https://solucoeselectronicas.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  www.solucoeselectronicas.com
+                </a>{' '}
+                (changed already)
+              </p>
+              <p>
+                2016: Build and mantain Wordpress website to GJ a Tulha:{' '}
+                <a
+                  href="http://www.atulha.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {' '}
+                  www.atulha.com
+                </a>
+              </p>
+            </TimelineContent>
+            <div className="time">
+              <h4>2017 - present</h4>
+            </div>
+          </li>
+
+          <li>
+            <TimelineContent>
+              <h3>Renault-Nissan-Mitsubishi</h3>
+              <p>Software Developer. Angular 7 + Angular Material</p>
+              <p>
+                Project Leader. Motivate team (internal and external) to work
+                together on Industry 4.0 project
+              </p>
+            </TimelineContent>
+            <div className="time">
+              <h4>2018 - 2019</h4>
+            </div>
+          </li>
+
+          <li>
+            <TimelineContent>
+              <h3>Coimbra Institute of Engineering</h3>
+              <p>Informatics Engineering Degree at ISEC</p>
+            </TimelineContent>
+            <TimelineContent>
+              <h3>
+                CISUC - Center for Informatics and Systems of the University of
+                Coimbra
+              </h3>
+              <p>
+                2017: Intership project. Android app (frontend and backend) for
+                control the female fertility period
+              </p>
+            </TimelineContent>
+            <div className="time">
+              <h4>2013 - 2017</h4>
+            </div>
+          </li>
+        </ul>
+      </Timeline>
     </Container>
   );
 };

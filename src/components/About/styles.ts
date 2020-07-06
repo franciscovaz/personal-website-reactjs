@@ -37,4 +37,158 @@ export const AboutInfo = styled.div`
   }
 `;
 
-export const Timeline = styled.div``;
+export const Timeline = styled.div`
+  position: relative;
+  margin: 50px auto;
+  padding: 40px 0;
+  width: 1000px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #c5c5c5;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+
+    &:nth-child(odd) {
+      float: left;
+      clear: both;
+      text-align: right;
+    }
+
+    &:nth-child(odd):before {
+      content: '';
+      position: absolute;
+      top: 24px;
+      right: -6px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: rgba(255, 204, 19, 1);
+      box-shadow: 0 0 0 3px rgba(255, 204, 19, 0.2);
+    }
+
+    &:nth-child(even) {
+      float: right;
+      clear: both;
+      text-align: left;
+    }
+
+    &:nth-child(even):before {
+      content: '';
+      position: absolute;
+      top: 24px;
+      left: -4px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: rgba(255, 204, 19, 1);
+      box-shadow: 0 0 0 3px rgba(255, 204, 19, 0.2);
+    }
+
+    h3 {
+      margin: 0;
+      padding: 0;
+      font-weight: 600;
+      color: rgba(255, 204, 19, 1);
+    }
+
+    p {
+      margin: 10px 0 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    & .time {
+      h4 {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+      }
+    }
+
+    &:nth-child(odd) .time {
+      position: absolute;
+      top: 12px;
+      right: -165px;
+      margin: 0;
+      padding: 8px 16px;
+      background: rgba(255, 204, 19, 1);
+      color: #000;
+      border-radius: 18px;
+      box-shadow: 0 0 0 3px rgba(255, 204, 19, 0.2);
+    }
+
+    &:nth-child(even) .time {
+      position: absolute;
+      top: 12px;
+      left: -165px;
+      margin: 0;
+      padding: 8px 16px;
+      background: rgba(255, 204, 19, 1);
+      color: #000;
+      border-radius: 18px;
+      box-shadow: 0 0 0 3px rgba(255, 204, 19, 0.2);
+    }
+  }
+
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
+
+  @media (max-width: 767px) {
+    width: 100%;
+
+    li {
+      p {
+        color: #fff;
+      }
+
+      &:nth-child(odd),
+      &:nth-child(even) {
+        width: 100%;
+        text-align: justify;
+        padding-left: 50px;
+        padding-bottom: 50px;
+      }
+
+      &:nth-child(odd):before,
+      &:nth-child(even):before {
+        top: -18px;
+        left: 16px;
+      }
+
+      &:nth-child(odd) .time,
+      &:nth-child(even) .time {
+        top: -30px;
+        left: 50px;
+        right: inherit;
+        color: black;
+      }
+    }
+
+    &:before {
+      left: 20px;
+      padding-bottom: 0;
+    }
+  }
+`;
+
+export const TimelineContent = styled.div`
+  padding-bottom: 20px;
+`;
