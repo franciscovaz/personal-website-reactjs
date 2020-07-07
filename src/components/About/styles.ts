@@ -8,7 +8,7 @@ export const Container = styled.section`
   align-items: center;
 `;
 
-export const SectionTitle = styled.section`
+export const SectionTitle = styled.div`
   text-align: center;
   color: #fff;
   margin-top: 5%;
