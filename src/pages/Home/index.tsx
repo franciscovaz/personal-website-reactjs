@@ -4,6 +4,7 @@ import { Container } from './styles';
 import Header from '../../components/Header';
 import Photo from '../../components/Photo';
 import About from '../../components/About';
+import Skills from '../../components/Skills';
 
 const Home: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const Home: React.FC = () => {
         <Header />
         <Photo />
         <About />
+        <Skills />
       </Container>
     </>
   );

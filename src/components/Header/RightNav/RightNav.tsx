@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 
 import { Link } from 'react-router-dom';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
@@ -9,28 +9,62 @@ interface RightNavProps {
 }
 
 const RightNav: React.FC<RightNavProps> = ({ open }) => {
+  const handleClickAbout = useCallback(() => {
+    const anchor = document.querySelector('#about');
+    anchor?.scrollIntoView({ behavior: 'smooth' });
+  }, []);
+
+  const handleClickSkills = useCallback(() => {
+    const anchor = document.querySelector('#skills');
+    anchor?.scrollIntoView({ behavior: 'smooth' });
+  }, []);
+
+  const handleClickAssociation = useCallback(() => {
+    const anchor = document.querySelector('#association');
+    anchor?.scrollIntoView({ behavior: 'smooth' });
+  }, []);
+
+  const handleClickProjects = useCallback(() => {
+    const anchor = document.querySelector('#projects');
+    anchor?.scrollIntoView({ behavior: 'smooth' });
+  }, []);
+
+  const handleClickContact = useCallback(() => {
+    const anchor = document.querySelector('#contact');
+    anchor?.scrollIntoView({ behavior: 'smooth' });
+  }, []);
   return (
     <Container open={open}>
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/home">Home</Link>
       </li>
       <li>
-        <Link to="/">About</Link>
+        <Link to="/home" onClick={handleClickAbout}>
+          About
+        </Link>
       </li>
       <li>
-        <Link to="/">Skills</Link>
+        <Link to="/home" onClick={handleClickSkills}>
+          Skills
+        </Link>
       </li>
       <li>
-        <Link to="/">Association</Link>
+        <Link to="/home" onClick={handleClickAssociation}>
+          Association
+        </Link>
       </li>
       <li>
-        <Link to="/">Projects</Link>
+        <Link to="/home" onClick={handleClickProjects}>
+          Projects
+        </Link>
       </li>
+      {/* <li>
+        <Link to="/home">Articles</Link>
+      </li> */}
       <li>
-        <Link to="/">Articles</Link>
-      </li>
-      <li>
-        <Link to="/">Contact</Link>
+        <Link to="/home" onClick={handleClickContact}>
+          Contact
+        </Link>
       </li>
       <SocialNetWork>
         <li>
