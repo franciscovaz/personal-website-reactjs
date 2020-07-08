@@ -6,6 +6,7 @@ import Photo from '../../components/Photo';
 import About from '../../components/About';
 import Skills from '../../components/Skills';
 import Association from '../../components/Association';
+import Contact from '../../components/Contact';
 
 const Home: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const Home: React.FC = () => {
         <About />
         <Skills />
         <Association />
+        <Contact />
       </Container>
     </>
   );
