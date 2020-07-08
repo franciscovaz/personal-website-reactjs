@@ -7,10 +7,20 @@ export const Container = styled.section`
   justify-content: center;
   align-items: center; */
   display: grid;
+
+  /* Mobile view */
   grid-template-columns: minmax(300px, 1fr);
   justify-content: center;
   grid-gap: 2rem;
   margin: 2rem;
+
+  @media (min-width: 608px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 `;
 
 export const CardContainer = styled.div`
