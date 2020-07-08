@@ -73,3 +73,15 @@ export const SectionTitle = styled.div`
     padding: 0 20%;
   }
 `;
+
+export const BottomDots = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: -30px;
+
+  h1 {
+    font-size: 48px;
+  }
+`;

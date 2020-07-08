@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SectionTitle, Container, CardContainer } from './styles';
+import { SectionTitle, Container, CardContainer, BottomDots } from './styles';
 
 const Skills: React.FC = () => {
   return (
@@ -92,6 +92,9 @@ const Skills: React.FC = () => {
           </p>
         </CardContainer>
       </Container>
+      <BottomDots>
+        <h1>...</h1>
+      </BottomDots>
     </div>
   );
 };
