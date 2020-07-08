@@ -33,6 +33,17 @@ export const PersonalInfo = styled.div`
   }
 
   h5 {
-    font-size: 1.25rem;
+    font-size: 24px;
+  }
+
+  @media (max-width: 376px) {
+    h1 {
+      font-size: 32px;
+      margin: 10px 0;
+    }
+
+    h5 {
+      font-size: 18px;
+    }
   }
 `;
