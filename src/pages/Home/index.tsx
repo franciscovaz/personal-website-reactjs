@@ -5,6 +5,7 @@ import Header from '../../components/Header';
 import Photo from '../../components/Photo';
 import About from '../../components/About';
 import Skills from '../../components/Skills';
+import Association from '../../components/Association';
 
 const Home: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const Home: React.FC = () => {
         <Photo />
         <About />
         <Skills />
+        <Association />
       </Container>
     </>
   );

@@ -45,6 +45,7 @@ export const CardContainer = styled.div`
   h1 {
     margin-top: 16px;
     font-size: 1.5rem;
+    color: rgba(255, 204, 19, 1);
   }
 
   p {
