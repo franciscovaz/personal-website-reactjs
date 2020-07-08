@@ -6,37 +6,45 @@ import { Container, SocialNetWork } from './styles';
 
 interface RightNavProps {
   open: boolean;
+  setOpen(open: boolean): void;
 }
 
-const RightNav: React.FC<RightNavProps> = ({ open }) => {
+const RightNav: React.FC<RightNavProps> = ({ open, setOpen }) => {
   const handleClickAbout = useCallback(() => {
     const anchor = document.querySelector('#about');
     anchor?.scrollIntoView({ behavior: 'smooth' });
-  }, []);
+    setOpen(!open);
+  }, [open, setOpen]);
 
   const handleClickSkills = useCallback(() => {
     const anchor = document.querySelector('#skills');
     anchor?.scrollIntoView({ behavior: 'smooth' });
-  }, []);
+    setOpen(!open);
+  }, [open, setOpen]);
 
   const handleClickAssociation = useCallback(() => {
     const anchor = document.querySelector('#association');
     anchor?.scrollIntoView({ behavior: 'smooth' });
-  }, []);
+    setOpen(!open);
+  }, [open, setOpen]);
 
   const handleClickProjects = useCallback(() => {
     const anchor = document.querySelector('#projects');
     anchor?.scrollIntoView({ behavior: 'smooth' });
-  }, []);
+    setOpen(!open);
+  }, [open, setOpen]);
 
   const handleClickContact = useCallback(() => {
     const anchor = document.querySelector('#contact');
     anchor?.scrollIntoView({ behavior: 'smooth' });
-  }, []);
+    setOpen(!open);
+  }, [open, setOpen]);
   return (
     <Container open={open}>
       <li>
-        <Link to="/home">Home</Link>
+        <Link to="/home" onClick={() => setOpen(!open)}>
+          Home
+        </Link>
       </li>
       <li>
         <Link to="/home" onClick={handleClickAbout}>

@@ -8,8 +8,8 @@ const Skills: React.FC = () => {
       <SectionTitle>
         <h1>Interested Skills</h1>
         <h3>
-          Through my studies and my works, I've gained knowledge of some web
-          development concepts, and at my free time i like to apply this
+          Through my studies and my works, I&apos;ve gained knowledge of some
+          web development concepts, and at my free time i like to apply this
           concepts and learn new ones, build apps that you can see in my Github
         </h3>
       </SectionTitle>
@@ -50,7 +50,7 @@ const Skills: React.FC = () => {
         </CardContainer>
 
         <CardContainer>
-          <h1>HTML & CSS</h1>
+          <h1>HTML &amp; CSS</h1>
           <p>
             Working with agile methodology is great. I have been working like
             that since my intership in university and i saw a lot of good things

@@ -33,7 +33,7 @@ export const Container = styled.ul<RightNavProps>`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.95);
     position: fixed;
     transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
     top: 0;
