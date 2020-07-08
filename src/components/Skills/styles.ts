@@ -23,9 +23,9 @@ export const Container = styled.section`
     grid-template-columns: repeat(3, 1fr);
   }
 
-  @media (min-width: 1100px) {
+  /* @media (min-width: 1100px) {
     grid-template-columns: repeat(4, 1fr);
-  }
+  } */
 `;
 
 export const CardContainer = styled.div`

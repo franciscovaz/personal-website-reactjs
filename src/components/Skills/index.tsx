@@ -91,6 +91,16 @@ const Skills: React.FC = () => {
             passed after developed some feature).
           </p>
         </CardContainer>
+        <CardContainer>
+          <h1>Team Work</h1>
+          <p>
+            Working with agile methodology is great. I have been working like
+            that since my intership in university and i saw a lot of good things
+            on it. Even in my personal projects i like to create issues,
+            estimate time and create some code reviews to me (after some time
+            passed after developed some feature).
+          </p>
+        </CardContainer>
       </Container>
       <BottomDots>
         <h1>...</h1>
