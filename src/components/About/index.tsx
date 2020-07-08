@@ -83,15 +83,14 @@ const About: React.FC = () => {
                   Edition of GoStack - RocketSeat (On Going)
                 </p>
                 <p>
-                  2017: Build Wordpress website to Soluções Electrónicas:
+                  2017: Build Wordpress website to Soluções Electrónicas:{' '}
                   <a
                     href="https://solucoeselectronicas.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     www.solucoeselectronicas.com
-                  </a>{' '}
-                  (changed already)
+                  </a>
                 </p>
                 <p>
                   2016: Build and mantain Wordpress website to GJ a Tulha:{' '}

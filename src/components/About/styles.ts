@@ -35,6 +35,10 @@ export const AboutInfo = styled.div`
     font-size: 22px;
     color: #fff;
   }
+
+  @media (max-width: 769px) {
+    text-align: justify;
+  }
 `;
 
 export const Timeline = styled.div`
@@ -144,6 +148,15 @@ export const Timeline = styled.div`
       color: #000;
       border-radius: 18px;
       box-shadow: 0 0 0 3px rgba(255, 204, 19, 0.2);
+    }
+
+    a {
+      /* text-decoration: none; */
+      color: #fff;
+
+      &:hover {
+        color: rgba(255, 204, 19, 1);
+      }
     }
   }
 
