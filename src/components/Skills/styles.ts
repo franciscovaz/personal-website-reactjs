@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { shade } from 'polished';
 
 export const Container = styled.section`
   /* display: flex;
@@ -14,17 +15,22 @@ export const Container = styled.section`
   grid-gap: 2rem;
   margin: 2rem;
 
-  @media (min-width: 608px) {
+  @media (min-width: 480px) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 984px) {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (min-width: 1100px) {
+    grid-template-columns: repeat(4, 1fr);
   }
 `;
 
 export const CardContainer = styled.div`
-  box-shadow: 0px 2px 8px 0px #ccc;
+  margin-top: 24px;
+  box-shadow: 0px 2px 8px 0px ${shade(0.8, '#ccc')};
   text-align: center;
   border-radius: 16px;
   position: relative;
@@ -37,6 +43,7 @@ export const CardContainer = styled.div`
   }
 
   h1 {
+    margin-top: 16px;
     font-size: 1.5rem;
   }
 
@@ -51,12 +58,18 @@ export const SectionTitle = styled.div`
   color: #fff;
   margin-top: 5%;
 
-  h2 {
+  h1 {
     display: inline-block;
     font-size: 28px;
     border-bottom: 1px solid;
     text-transform: uppercase;
     padding: 0 0 10px;
     color: #fff;
+  }
+
+  h3 {
+    margin-top: 24px;
+    text-align: center;
+    padding: 0 20%;
   }
 `;
