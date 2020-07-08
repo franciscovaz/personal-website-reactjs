@@ -17,7 +17,7 @@ export const SectionTitle = styled.div`
 
   h3 {
     margin-top: 16px;
-    font-size: 28px;
+    font-size: 20px;
     color: ${shade(0.2, '#fff')};
   }
 `;
@@ -49,6 +49,23 @@ export const SocialIcons = styled.div`
         background-color: rgba(255, 204, 19, 1);
         border: 1px solid rgba(255, 204, 19, 1);
         transition: 0.5s;
+      }
+    }
+  }
+
+  @media (max-width: 769px) {
+    ul {
+      li {
+        margin: 50px 20px;
+      }
+    }
+  }
+
+  @media (max-width: 376px) {
+    ul {
+      margin-top: 24px;
+      li {
+        margin: 20px 20px;
       }
     }
   }
