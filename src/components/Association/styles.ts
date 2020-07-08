@@ -24,5 +24,14 @@ export const Container = styled.section`
   p {
     line-height: 28px;
     font-size: 22px;
+
+    a {
+      /* text-decoration: none; */
+      color: #fff;
+
+      &:hover {
+        color: rgba(255, 204, 19, 1);
+      }
+    }
   }
 `;

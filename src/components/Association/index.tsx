@@ -25,13 +25,15 @@ const Association: React.FC = () => {
           the association, make me grow as a human being.
           <br />
           From the simple holding of a Swedish tournament, to the holding of the{' '}
-          <a
-            href="https://www.facebook.com/FestivaldoBacalhau/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            cod festival
-          </a>{' '}
+          <b>
+            <a
+              href="https://www.facebook.com/FestivaldoBacalhau/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              cod festival
+            </a>
+          </b>{' '}
           in which it is necessary to deal with suppliers, target audience,
           among others.
         </p>
@@ -40,30 +42,36 @@ const Association: React.FC = () => {
           I only have to draw positive points from active participation, both
           personally and professionally. <br />
           Check{' '}
-          <a
-            href="http://www.atulha.com/tulha/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Tulha website
-          </a>
+          <b>
+            <a
+              href="http://www.atulha.com/tulha/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Tulha website
+            </a>
+          </b>
           ,{' '}
-          <a
-            href="https://www.facebook.com/grupodejovensatulha/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            facebook
-          </a>{' '}
+          <b>
+            <a
+              href="https://www.facebook.com/grupodejovensatulha/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              facebook
+            </a>
+          </b>{' '}
           and{' '}
-          <a
-            href="https://www.instagram.com/gjatulha/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {' '}
-            instagram{' '}
-          </a>
+          <b>
+            <a
+              href="https://www.instagram.com/gjatulha/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {' '}
+              instagram{' '}
+            </a>
+          </b>
           to keep up with our work.
         </p>
       </Container>
