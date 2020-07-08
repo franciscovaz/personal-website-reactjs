@@ -8,6 +8,8 @@ export const Container = styled.section`
   align-items: center;
 `;
 
+export const CardContainer = styled.div``;
+
 export const SectionTitle = styled.div`
   text-align: center;
   color: #fff;
