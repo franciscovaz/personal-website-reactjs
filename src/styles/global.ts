@@ -9,7 +9,7 @@ export default createGlobalStyle`
   }
 
   body{
-    background: #312e38;
+    background: #000;
     color: #fff;
     -webkit-font-smoothing: antialiased;
     font-family: 'PT Sans Narrow', sans-serif;

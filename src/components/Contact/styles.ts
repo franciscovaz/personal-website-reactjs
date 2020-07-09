@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { shade } from 'polished';
 
 export const SectionTitle = styled.div`
   margin-top: 5%;

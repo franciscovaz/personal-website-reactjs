@@ -37,6 +37,7 @@ export const AboutInfo = styled.div`
   }
 
   @media (max-width: 769px) {
+    width: 80%;
     text-align: justify;
   }
 `;

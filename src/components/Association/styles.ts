@@ -36,5 +36,6 @@ export const Container = styled.section`
   }
   @media (max-width: 769px) {
     text-align: justify;
+    width: 80%;
   }
 `;

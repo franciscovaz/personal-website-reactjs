@@ -73,6 +73,14 @@ export const SectionTitle = styled.div`
     text-align: center;
     padding: 0 20%;
   }
+
+  @media (max-width: 769px) {
+    h3 {
+      padding: 0 25px;
+      font-size: 16px;
+      color: #ccc;
+    }
+  }
 `;
 
 export const BottomDots = styled.div`
