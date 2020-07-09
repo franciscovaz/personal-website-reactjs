@@ -14,12 +14,6 @@ export const SectionTitle = styled.div`
     padding: 0 0 10px;
     color: #fff;
   }
-
-  h3 {
-    margin-top: 16px;
-    font-size: 20px;
-    color: ${shade(0.2, '#fff')};
-  }
 `;
 
 export const Container = styled.section`

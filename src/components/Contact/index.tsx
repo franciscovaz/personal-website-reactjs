@@ -15,7 +15,6 @@ const Contact: React.FC = () => {
       <Container>
         <SectionTitle>
           <h1>You wanna talk? </h1>
-          <h3>Reach me out at: </h3>
         </SectionTitle>
 
         <h2>ftomasvaz@gmail.com</h2>
