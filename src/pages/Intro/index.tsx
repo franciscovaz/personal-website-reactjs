@@ -1,6 +1,8 @@
 import React, { useCallback, useState, ChangeEvent } from 'react';
-import { Container } from './styles';
 import { Link } from 'react-router-dom';
+import { FiLogIn } from 'react-icons/fi';
+import { Container } from './styles';
+import FVDark from '../../assets/FVDark.png';
 
 import { useUserName } from '../../hooks/userName';
 
@@ -21,6 +23,7 @@ const Intro: React.FC = () => {
   return (
     <Container>
       {/* <h1>Whats your name?</h1> */}
+      {/* <img src={FVDark} alt="Francisco Vaz" /> */}
       <input
         type="text"
         placeholder="Whats your name?"
@@ -28,7 +31,7 @@ const Intro: React.FC = () => {
       />
       <Link to="Home">
         <button type="button" onClick={handleGoToWebsite}>
-          Entrar
+          <FiLogIn size={24} color="#ffcc13" />
         </button>
       </Link>
     </Container>
