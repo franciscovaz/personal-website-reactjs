@@ -2,7 +2,6 @@ import React, { useCallback, useState, ChangeEvent } from 'react';
 import { Link } from 'react-router-dom';
 import { FiLogIn } from 'react-icons/fi';
 import { Container } from './styles';
-import FVDark from '../../assets/FVDark.png';
 
 import { useUserName } from '../../hooks/userName';
 
