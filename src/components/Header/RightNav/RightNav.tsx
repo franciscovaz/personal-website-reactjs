@@ -57,13 +57,13 @@ const RightNav: React.FC<RightNavProps> = ({ open, setOpen }) => {
         </Link>
       </li>
       <li>
-        <Link to="/home" onClick={handleClickAssociation}>
-          Association
+        <Link to="/home" onClick={handleClickProjects}>
+          Projects
         </Link>
       </li>
       <li>
-        <Link to="/home" onClick={handleClickProjects}>
-          Projects
+        <Link to="/home" onClick={handleClickAssociation}>
+          Association
         </Link>
       </li>
       {/* <li>
