@@ -10,7 +10,7 @@ export const Container = styled.section`
 
 export const SectionTitle = styled.div`
   text-align: center;
-  color: #fff;
+  color: ${props => props.theme.colors.secundary};
   margin-top: 5%;
 
   h2 {
@@ -19,7 +19,7 @@ export const SectionTitle = styled.div`
     border-bottom: 1px solid;
     text-transform: uppercase;
     padding: 0 0 10px;
-    color: #fff;
+    color: ${props => props.theme.colors.secundary};
   }
 `;
 
@@ -33,7 +33,7 @@ export const AboutInfo = styled.div`
   p {
     line-height: 28px;
     font-size: 22px;
-    color: #fff;
+    color: ${props => props.theme.colors.secundary};
   }
 
   @media (max-width: 769px) {
@@ -116,7 +116,7 @@ export const Timeline = styled.div`
     p {
       margin: 10px 0 0;
       padding: 0;
-      color: #fff;
+      color: ${props => props.theme.colors.secundary};
     }
 
     & .time {
@@ -153,7 +153,7 @@ export const Timeline = styled.div`
 
     a {
       /* text-decoration: none; */
-      color: #fff;
+      color: ${props => props.theme.colors.secundary};
 
       &:hover {
         color: rgba(255, 204, 19, 1);
@@ -170,7 +170,7 @@ export const Timeline = styled.div`
 
     li {
       p {
-        color: #fff;
+        color: ${props => props.theme.colors.secundary};
       }
 
       &:nth-child(odd),
