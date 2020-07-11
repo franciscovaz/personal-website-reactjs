@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
 import {
   FaGithub,
@@ -7,9 +7,11 @@ import {
   FaInstagramSquare,
 } from 'react-icons/fa';
 
+import { ThemeContext } from 'styled-components';
 import { Container, SectionTitle, SocialIcons } from './styles';
 
 const Contact: React.FC = () => {
+  const { colors } = useContext(ThemeContext);
   return (
     <div id="contact">
       <Container>
@@ -26,7 +28,7 @@ const Contact: React.FC = () => {
               rel="noopener noreferrer"
             >
               <li>
-                <FaGithub color="#fff" size={32} />
+                <FaGithub color={colors.secundary} size={32} />
               </li>
             </a>
             <a
@@ -35,7 +37,7 @@ const Contact: React.FC = () => {
               rel="noopener noreferrer"
             >
               <li>
-                <FaLinkedinIn color="#fff" size={32} />
+                <FaLinkedinIn color={colors.secundary} size={32} />
               </li>
             </a>
             <a
@@ -44,7 +46,7 @@ const Contact: React.FC = () => {
               rel="noopener noreferrer"
             >
               <li>
-                <FaInstagramSquare color="#fff" size={32} />
+                <FaInstagramSquare color={colors.secundary} size={32} />
               </li>
             </a>
             <a
@@ -53,7 +55,7 @@ const Contact: React.FC = () => {
               rel="noopener noreferrer"
             >
               <li>
-                <FaFacebook color="#fff" size={32} />
+                <FaFacebook color={colors.secundary} size={32} />
               </li>
             </a>
           </ul>

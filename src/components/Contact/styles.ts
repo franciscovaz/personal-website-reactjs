@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const SectionTitle = styled.div`
   margin-top: 5%;
   text-align: center;
-  color: #fff;
+  color: ${props => props.theme.colors.secundary};
 
   h1 {
     display: inline-block;
@@ -11,7 +11,7 @@ export const SectionTitle = styled.div`
     border-bottom: 1px solid;
     text-transform: uppercase;
     padding: 0 0 10px;
-    color: #fff;
+    color: ${props => props.theme.colors.secundary};
   }
 `;
 
@@ -34,7 +34,7 @@ export const SocialIcons = styled.div`
       margin: 50px 30px;
       display: inline-block;
       padding: 15px 15px;
-      border: 1px solid #fff;
+      border: 1px solid ${props => props.theme.colors.secundary};
       border-radius: 50%;
       transition: 0.5s;
 
