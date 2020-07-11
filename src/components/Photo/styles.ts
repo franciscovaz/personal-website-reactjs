@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 import profileImageDark from '../../assets/perfil1.jpg';
-import profileImageLight from '../../assets/perfil_light.jpg';
 
 export const Container = styled.section`
   display: flex;
