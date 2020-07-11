@@ -2,11 +2,6 @@ import styled from 'styled-components';
 import { shade } from 'polished';
 
 export const Container = styled.section`
-  /* display: flex;
-  flex-direction: column;
-
-  justify-content: center;
-  align-items: center; */
   display: grid;
 
   /* Mobile view */
@@ -56,7 +51,7 @@ export const CardContainer = styled.div`
 
 export const SectionTitle = styled.div`
   text-align: center;
-  color: #fff;
+  color: ${props => props.theme.colors.secundary};
   margin-top: 5%;
 
   h1 {
@@ -65,7 +60,7 @@ export const SectionTitle = styled.div`
     border-bottom: 1px solid;
     text-transform: uppercase;
     padding: 0 0 10px;
-    color: #fff;
+    color: ${props => props.theme.colors.secundary};
   }
 
   h3 {

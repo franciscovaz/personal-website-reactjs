@@ -15,7 +15,7 @@ export const Container = styled.ul<RightNavProps>`
     a {
       text-decoration: none;
       text-transform: uppercase;
-      color: #fff;
+      color: ${props => props.theme.colors.secundary};
 
       font-weight: 700;
       font-size: 20;
@@ -44,12 +44,12 @@ export const Container = styled.ul<RightNavProps>`
     transition: transform 0.3s ease-in-out;
 
     li {
-      color: #fff;
+      color: ${props => props.theme.colors.secundary};
 
       a {
         text-decoration: none;
         text-transform: uppercase;
-        color: #fff;
+        color: ${props => props.theme.colors.secundary};
 
         font-weight: 700;
         font-size: 20px;

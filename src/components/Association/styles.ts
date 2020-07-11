@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const SectionTitle = styled.div`
   text-align: center;
-  color: #fff;
+  color: ${props => props.theme.colors.secundary};
   margin-top: 5%;
 
   h1 {
@@ -11,7 +11,7 @@ export const SectionTitle = styled.div`
     border-bottom: 1px solid;
     text-transform: uppercase;
     padding: 0 0 10px;
-    color: #fff;
+    color: ${props => props.theme.colors.secundary};
   }
 `;
 
@@ -27,7 +27,7 @@ export const Container = styled.section`
 
     a {
       /* text-decoration: none; */
-      color: #fff;
+      color: ${props => props.theme.colors.secundary};
 
       &:hover {
         color: rgba(255, 204, 19, 1);

@@ -10,6 +10,6 @@ export const Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #000;
+  background: ${props => props.theme.colors.quaternary};
   z-index: 100;
 `;
