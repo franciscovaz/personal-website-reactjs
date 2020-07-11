@@ -10,7 +10,7 @@ export const Container = styled.section`
 
 export const TitleSection = styled.div`
   text-align: center;
-  color: #fff;
+  color: ${props => props.theme.colors.secundary};
   margin-top: 5%;
 
   h1 {
@@ -19,7 +19,7 @@ export const TitleSection = styled.div`
     border-bottom: 1px solid;
     text-transform: uppercase;
     padding: 0 0 10px;
-    color: #fff;
+    color: ${props => props.theme.colors.secundary};
   }
 
   h3 {
@@ -122,7 +122,7 @@ export const TechnologiesContainer = styled.div`
     padding: 0 20px;
     height: 20px;
     & + p {
-      border-left: 1px solid #fff;
+      border-left: 1px solid ${props => props.theme.colors.secundary};
     }
   }
 
@@ -151,7 +151,7 @@ export const ButtonsContainer = styled.div`
 
     border: 1px solid rgba(255, 204, 19, 1);
     background: transparent;
-    color: #fff;
+    color: ${props => props.theme.colors.secundary};
     border-radius: 16px;
 
     padding: 5px 15px;
