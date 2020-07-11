@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
-import profileImage from '../../assets/perfil1.jpg';
+import profileImageDark from '../../assets/perfil1.jpg';
+import profileImageLight from '../../assets/perfil_light.jpg';
 
 export const Container = styled.section`
   display: flex;
@@ -10,7 +11,7 @@ export const Container = styled.section`
   align-items: center;
 
   &:nth-of-type(1) {
-    background-image: url(${profileImage});
+    background-image: url(${profileImageDark});
     background-size: cover;
     background-position: center;
   }
