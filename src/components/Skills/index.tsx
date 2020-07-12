@@ -52,32 +52,28 @@ const Skills: React.FC = () => {
         <CardContainer>
           <h1>HTML &amp; CSS</h1>
           <p>
-            Working with agile methodology is great. I have been working like
-            that since my intership in university and i saw a lot of good things
-            on it. Even in my personal projects i like to create issues,
-            estimate time and create some code reviews to me (after some time
-            passed after developed some feature).
+            No question with that. Frontend needs HTML and CSS and I&apos;m
+            always looking to improve my skills in this two areas.
           </p>
         </CardContainer>
 
         <CardContainer>
           <h1>Styled-Components</h1>
           <p>
-            Working with agile methodology is great. I have been working like
-            that since my intership in university and i saw a lot of good things
-            on it. Even in my personal projects i like to create issues,
-            estimate time and create some code reviews to me (after some time
-            passed after developed some feature).
+            When I started learning React, I started learning styled components
+            to. I only see advantages using it. All my React applications use
+            styled-components so you can see the way i like it!
           </p>
         </CardContainer>
         <CardContainer>
           <h1>GIT</h1>
           <p>
-            Working with agile methodology is great. I have been working like
-            that since my intership in university and i saw a lot of good things
-            on it. Even in my personal projects i like to create issues,
-            estimate time and create some code reviews to me (after some time
-            passed after developed some feature).
+            In all my personal projects I like to use Git. I started using in
+            command line but know, the extension for VS Code is so good that I
+            haven&apos;t used the command line. Version control of all projects
+            is much easier with the use of this tool &#128076;. Not to mention
+            that all of my work can be demenstrated on GitHub, making
+            Readme&apos;s to demonstrated the projects.
           </p>
         </CardContainer>
 
@@ -88,17 +84,19 @@ const Skills: React.FC = () => {
             that since my intership in university and i saw a lot of good things
             on it. Even in my personal projects i like to create issues,
             estimate time and create some code reviews to me (after some time
-            passed after developed some feature).
+            passed after developed some feature). I like to do introspectives to
+            improve the way I code and the way I think.
           </p>
         </CardContainer>
         <CardContainer>
           <h1>Team Work</h1>
           <p>
-            Working with agile methodology is great. I have been working like
-            that since my intership in university and i saw a lot of good things
-            on it. Even in my personal projects i like to create issues,
-            estimate time and create some code reviews to me (after some time
-            passed after developed some feature).
+            Since I was a child I like team work. With the participation in an
+            association, this aspect was always growing within me. When I
+            entered the worl of work, I only saw good things and when we create
+            a good relationship and when we help each other, regardless of the
+            area of work (backend/frontend, p.e.), to take the project on the
+            right path.
           </p>
         </CardContainer>
       </Container>
