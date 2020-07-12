@@ -1,5 +1,9 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { shade } from 'polished';
+
+interface InputProps {
+  hasError: boolean;
+}
 
 export const Container = styled.div`
   width: 100px;
@@ -11,20 +15,6 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 
-  input {
-    width: 300px;
-    border: 0;
-    padding: 20px 20px;
-    border-radius: 16px;
-
-    background: ${shade(0.7, '#ccc')};
-    color: #fff;
-
-    &::placeholder {
-      color: #fff;
-    }
-  }
-
   button {
     background: ${props => props.theme.colors.senary};
     width: 300px;
@@ -34,4 +24,24 @@ export const Container = styled.div`
 
     margin-top: 5%;
   }
+`;
+
+export const Input = styled.input<InputProps>`
+  width: 300px;
+  border: 0;
+  padding: 20px 20px;
+  border-radius: 16px;
+
+  background: ${shade(0.7, '#ccc')};
+  color: #fff;
+
+  &::placeholder {
+    color: #fff;
+  }
+
+  ${props =>
+    props.hasError &&
+    css`
+      border: 2px solid #ff0000;
+    `}
 `;

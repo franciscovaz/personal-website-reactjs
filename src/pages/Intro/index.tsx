@@ -1,38 +1,51 @@
 import React, { useCallback, useState, ChangeEvent } from 'react';
-import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import { FiLogIn } from 'react-icons/fi';
-import { Container } from './styles';
+import { Container, Input } from './styles';
 
 import { useUserName } from '../../hooks/userName';
 
 const Intro: React.FC = () => {
   const [name, setName] = useState('');
   const { setUserName } = useUserName();
+  const [hasError, setHasError] = useState(false);
+  const history = useHistory();
 
-  const handleNameChange = useCallback((e: ChangeEvent<HTMLInputElement>) => {
-    setName(e.target.value);
-  }, []);
+  const handleNameChange = useCallback(
+    (e: ChangeEvent<HTMLInputElement>) => {
+      setName(e.target.value);
+      if (name) {
+        setHasError(false);
+      } else {
+        setHasError(true);
+      }
+    },
+    [name],
+  );
 
   const handleGoToWebsite = useCallback(() => {
     if (name) {
+      setHasError(false);
       setUserName(name);
+      history.push('/home');
+    } else {
+      setHasError(true);
     }
-  }, [name, setUserName]);
+  }, [name, setUserName, history]);
 
   return (
     <Container>
       {/* <h1>Whats your name?</h1> */}
       {/* <img src={FVDark} alt="Francisco Vaz" /> */}
-      <input
+      <Input
         type="text"
         placeholder="Whats your name?"
         onChange={handleNameChange}
+        hasError={hasError}
       />
-      <Link to="Home">
-        <button type="button" onClick={handleGoToWebsite}>
-          <FiLogIn size={24} color="#ffcc13" />
-        </button>
-      </Link>
+      <button type="button" onClick={handleGoToWebsite}>
+        <FiLogIn size={24} color="#ffcc13" />
+      </button>
     </Container>
   );
 };
