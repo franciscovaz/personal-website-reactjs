@@ -8,7 +8,7 @@ export default {
     quaternary: '#000',
     quinary: '#ccc',
     senary: '#000',
-    septenary: '#000',
+    septenary: '#fff',
     octonary: '#000',
     nonary: '#000',
     denary: '#000',

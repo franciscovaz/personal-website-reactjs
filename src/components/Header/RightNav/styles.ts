@@ -49,7 +49,7 @@ export const Container = styled.ul<RightNavProps>`
       a {
         text-decoration: none;
         text-transform: uppercase;
-        color: ${props => props.theme.colors.secundary};
+        color: ${props => props.theme.colors.septenary};
 
         font-weight: 700;
         font-size: 20px;
