@@ -12,6 +12,7 @@ export const SectionTitle = styled.div`
   text-align: center;
   color: ${props => props.theme.colors.secundary};
   margin-top: 5%;
+  z-index: 99;
 
   h2 {
     display: inline-block;
@@ -47,6 +48,7 @@ export const Timeline = styled.div`
   margin: 50px auto;
   padding: 40px 0;
   width: 1000px;
+  z-index: 99;
 
   &:before {
     content: '';

@@ -50,6 +50,12 @@ export const CardContainer = styled.div`
 `;
 
 export const SectionTitle = styled.div`
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  justify-content: center;
+  align-items: center;
+
   text-align: center;
   color: ${props => props.theme.colors.secundary};
   margin-top: 5%;

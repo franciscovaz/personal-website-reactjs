@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  justify-content: center;
+  align-items: center;
   @media (min-width: 1024px) {
     width: 100%;
     margin: 0 auto;
@@ -31,6 +36,7 @@ export const TitleSection = styled.div`
   @media (max-width: 769px) {
     width: 90%;
     margin: 0 auto;
+    z-index: 99;
 
     h3 {
       padding: 0 10px;
@@ -48,6 +54,7 @@ export const ProjectContainer = styled.div`
   height: 370px;
 
   margin-top: 32px;
+  z-index: 99;
 
   img {
     max-width: 370px;
@@ -63,6 +70,7 @@ export const ProjectContainer = styled.div`
   }
 
   @media (min-width: 319px) {
+    z-index: 99;
     img {
       max-width: 300px;
       padding: 0 10px 10px;
@@ -76,6 +84,7 @@ export const ProjectContainer = styled.div`
   @media (min-width: 767px) {
     display: flex;
     flex-direction: row;
+    z-index: 99;
 
     img {
       width: 50%;
@@ -91,6 +100,7 @@ export const ProjectContainer = styled.div`
   @media (min-width: 1024px) {
     display: flex;
     flex-direction: row;
+    z-index: 99;
 
     img {
       width: 50%;
