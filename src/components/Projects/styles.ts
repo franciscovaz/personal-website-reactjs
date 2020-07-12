@@ -35,7 +35,7 @@ export const TitleSection = styled.div`
 
   @media (max-width: 769px) {
     width: 90%;
-    margin: 0 auto;
+    margin: 10% auto;
     z-index: 99;
 
     h3 {

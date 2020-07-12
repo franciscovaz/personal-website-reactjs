@@ -53,4 +53,8 @@ export const SectionTitle = styled.div`
     padding: 0 0 10px;
     color: ${props => props.theme.colors.secundary};
   }
+
+  @media (max-width: 769px) {
+    margin-top: 20%;
+  }
 `;
