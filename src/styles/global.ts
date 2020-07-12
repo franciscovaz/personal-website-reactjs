@@ -6,6 +6,7 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     outline: 0;
+    z-index: 99;
   }
 
   body{
@@ -18,5 +19,13 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
+  }
+
+  div#tsparticles{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+
   }
 `;
