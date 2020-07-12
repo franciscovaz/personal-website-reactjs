@@ -13,7 +13,7 @@ const About: React.FC = () => {
     <div id="about">
       <Container>
         <SectionTitle>
-          <h2>Sobre</h2>
+          <h2>About me</h2>
         </SectionTitle>
 
         <AboutInfo>
@@ -50,8 +50,10 @@ const About: React.FC = () => {
             experiences with others.
           </p>
 
-          <p>
+          <p style={{ textAlign: 'center' }}>
             <b>I have always one thought in my head: </b>
+          </p>
+          <p style={{ textAlign: 'center' }}>
             <i>
               &apos;To have results above the average, we have to do what the
               average doesn&apos;t&apos;

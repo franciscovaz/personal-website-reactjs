@@ -32,7 +32,7 @@ export const AboutInfo = styled.div`
   width: 60%;
   margin: 0 auto;
   padding: 50px 0;
-  text-align: center;
+  text-align: justify;
   z-index: 99;
 
   p {
