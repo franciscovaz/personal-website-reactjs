@@ -36,9 +36,7 @@ const Association: React.FC = () => {
           </b>{' '}
           in which it is necessary to deal with suppliers, target audience,
           among others.
-        </p>
-
-        <p>
+          <br />
           I only have to draw positive points from active participation, both
           personally and professionally. <br />
           Check{' '}
