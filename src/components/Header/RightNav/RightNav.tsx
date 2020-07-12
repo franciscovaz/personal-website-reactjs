@@ -52,6 +52,11 @@ const RightNav: React.FC<RightNavProps> = ({ open, setOpen }) => {
         </Link>
       </li>
       <li>
+        <Link to="/home" onClick={handleClickProjects}>
+          Projects
+        </Link>
+      </li>
+      <li>
         <Link to="/home" onClick={handleClickAbout}>
           About
         </Link>
@@ -61,11 +66,7 @@ const RightNav: React.FC<RightNavProps> = ({ open, setOpen }) => {
           Skills
         </Link>
       </li>
-      <li>
-        <Link to="/home" onClick={handleClickProjects}>
-          Projects
-        </Link>
-      </li>
+
       <li>
         <Link to="/home" onClick={handleClickAssociation}>
           Association
