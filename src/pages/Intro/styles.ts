@@ -26,7 +26,7 @@ export const Container = styled.div`
   }
 
   button {
-    background: transparent;
+    background: ${props => props.theme.colors.senary};
     width: 300px;
     padding: 5px 15px;
     border-color: #ffcc13;

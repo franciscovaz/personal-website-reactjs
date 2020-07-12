@@ -10,6 +10,11 @@ interface RightNavProps {
 }
 
 const RightNav: React.FC<RightNavProps> = ({ open, setOpen }) => {
+  const handleClickHome = useCallback(() => {
+    const anchor = document.querySelector('#profile');
+    anchor?.scrollIntoView({ behavior: 'smooth' });
+    setOpen(!open);
+  }, [open, setOpen]);
   const handleClickAbout = useCallback(() => {
     const anchor = document.querySelector('#about');
     anchor?.scrollIntoView({ behavior: 'smooth' });
@@ -42,7 +47,7 @@ const RightNav: React.FC<RightNavProps> = ({ open, setOpen }) => {
   return (
     <Container open={open}>
       <li>
-        <Link to="/home" onClick={() => setOpen(!open)}>
+        <Link to="/home" onClick={handleClickHome}>
           Home
         </Link>
       </li>
