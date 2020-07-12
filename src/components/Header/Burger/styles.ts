@@ -18,6 +18,8 @@ export const StyledBurger = styled.div<BurgerProps>`
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
+
+    z-index: 9999;
   }
 
   div {
