@@ -34,12 +34,18 @@ const Projects: React.FC = () => {
           />
           <div>
             <p>
-              Descrição do projeto com cenas aleatorias mas que de para ver que
-              é uma descrição mais ou menos com bom conteudo e seja possivel ver
-              corretamente como ira ficar nas varias plataformas
+              Application that I have been developing, and that I started from
+              scratch, to be able to assimilate many concepts of ReactJS. It
+              consists of recording a specific occurrence in a city or town, and
+              where the competent authorities, as administrators, will be able
+              to see, handle and update the status of the occurrences. Each
+              occurrence will be recorded by choosing the location on the map
+              (leaflet) and sending a photo only (Firebase). I also developed
+              the backend in NodeJS with express. I still have work ahead, but I
+              see the progress and I feel very excited to move forward.
             </p>
             <TechnologiesContainer>
-              <p>ReactJS</p>
+              <p>ReactJS / Angular 8</p>
               <p>Typescript</p>
               <p>Styled Components</p>
             </TechnologiesContainer>
@@ -64,9 +70,13 @@ const Projects: React.FC = () => {
           />
           <div>
             <p>
-              Descrição do projeto com cenas aleatorias mas que de para ver que
-              é uma descrição mais ou menos com bom conteudo e seja possivel ver
-              corretamente como ira ficar nas varias plataformas
+              This is the website that you&apos;re watching. I decided to do it
+              in ReactJS with Typescript to improve my skills in this
+              technology, and i keep it simple. Started with the portefolio
+              section for people to se my projects and if they like it, ok go
+              check about me section. Like lot of DEV&apos;s, I use dark mode in
+              all I can, so my website have a cool switch between dark and light
+              design.
             </p>
             <TechnologiesContainer>
               <p>ReactJS</p>
