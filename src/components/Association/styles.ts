@@ -33,7 +33,7 @@ export const Container = styled.section`
   width: 60%;
   margin: 0 auto;
   padding: 50px 0;
-  text-align: justify;
+  text-align: center;
 
   p {
     line-height: 28px;
