@@ -51,14 +51,14 @@ export const ProjectContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  height: 370px;
+  /* height: 370px; */
 
-  margin-top: 32px;
+  margin-top: 16px;
   z-index: 99;
 
   img {
     max-width: 370px;
-    height: 370px;
+    max-height: 370px;
     object-fit: contain;
     object-position: center center;
     padding: 20px 10px;
@@ -77,7 +77,7 @@ export const ProjectContainer = styled.div`
     }
 
     p {
-      padding: 10px 20px;
+      padding: 0 20px;
     }
   }
 
@@ -127,6 +127,8 @@ export const TechnologiesContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  margin-top: 5%;
 
   p {
     padding: 0 20px;
