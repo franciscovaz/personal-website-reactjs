@@ -154,7 +154,7 @@ export const ButtonsContainer = styled.div`
   align-items: center;
   justify-content: center;
 
-  margin-top: 20px;
+  margin-top: 5%;
 
   button {
     display: flex;
@@ -175,5 +175,14 @@ export const ButtonsContainer = styled.div`
     svg {
       margin-right: 5px;
     }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  @media (max-width: 345px) {
+    margin-top: 15%;
   }
 `;
