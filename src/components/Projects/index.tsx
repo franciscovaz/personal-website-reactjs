@@ -51,11 +51,17 @@ const Projects: React.FC = () => {
             </TechnologiesContainer>
             <ButtonsContainer>
               <button type="button">
-                <FaGithub /> Source
+                <a
+                  href="https://github.com/franciscovaz/registo-de-ocorrencias-reactjs.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub /> Source
+                </a>
               </button>
-              <button type="button">
+              {/* <button type="button">
                 <FaExternalLinkAlt /> Visit
-              </button>
+              </button> */}
             </ButtonsContainer>
           </div>
         </ProjectContainer>
@@ -85,10 +91,22 @@ const Projects: React.FC = () => {
             </TechnologiesContainer>
             <ButtonsContainer>
               <button type="button">
-                <FaGithub /> Source
+                <a
+                  href="https://github.com/franciscovaz/personal-website-reactjs.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub /> Source
+                </a>
               </button>
               <button type="button">
-                <FaExternalLinkAlt /> Visit
+                <a
+                  href="http://franciscovaz.pt/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaExternalLinkAlt /> Visit
+                </a>
               </button>
             </ButtonsContainer>
           </div>
@@ -100,26 +118,38 @@ const Projects: React.FC = () => {
         <ProjectContainer>
           <img
             src="https://github.com/franciscovaz/gobarber-web-reactjs/blob/master/imgs/login_toast.png?raw=true"
-            alt="Project XPTO"
+            alt="GoBarber"
           />
           <div>
             <p>
-              Descrição do projeto com cenas aleatorias mas que de para ver que
-              é uma descrição mais ou menos com bom conteudo e seja possivel ver
-              corretamente como ira ficar nas varias plataformas
+              Application for a fictional beauty service provider, GoBarber.
+              This project is part of a complete application involving backend,
+              frontend and mobile and you can see all repositories in my Github.
+              The application was developed during the Rocketseat bootcamp and
+              was carried out throughout the classes. I need to finish the
+              mobile part but I’m almost done. I learned most of the concepts
+              that I need to know about ReactJS to feel confident to embrace
+              others projects.
             </p>
             <TechnologiesContainer>
               <p>ReactJS</p>
               <p>Typescript</p>
               <p>Styled Components</p>
+              <p>Yup</p>
             </TechnologiesContainer>
             <ButtonsContainer>
               <button type="button">
-                <FaGithub /> Source
+                <a
+                  href="https://github.com/franciscovaz/gobarber-web-reactjs.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub /> Source
+                </a>
               </button>
-              <button type="button">
+              {/* <button type="button">
                 <FaExternalLinkAlt /> Visit
-              </button>
+              </button> */}
             </ButtonsContainer>
           </div>
         </ProjectContainer>
@@ -130,26 +160,33 @@ const Projects: React.FC = () => {
         <ProjectContainer>
           <img
             src="https://github.com/franciscovaz/recolhaECO/blob/master/imgs/preview-nlw.png?raw=true"
-            alt="Project XPTO"
+            alt="RecolhaECO"
           />
           <div>
             <p>
-              Descrição do projeto com cenas aleatorias mas que de para ver que
-              é uma descrição mais ou menos com bom conteudo e seja possivel ver
-              corretamente como ira ficar nas varias plataformas
+              The application was built from scratch, on the backend using
+              NodeJS with Express, multer, celebrate, frontend with ReactJS and
+              Mobile with React Native. In all components, Typescript was used.
             </p>
             <TechnologiesContainer>
               <p>ReactJS</p>
               <p>Typescript</p>
-              <p>Styled Components</p>
+              <p>React Native</p>
+              <p>NodeJS - Express</p>
             </TechnologiesContainer>
             <ButtonsContainer>
               <button type="button">
-                <FaGithub /> Source
+                <a
+                  href="https://github.com/franciscovaz/recolhaECO.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub /> Source
+                </a>
               </button>
-              <button type="button">
+              {/* <button type="button">
                 <FaExternalLinkAlt /> Visit
-              </button>
+              </button> */}
             </ButtonsContainer>
           </div>
         </ProjectContainer>
@@ -160,26 +197,37 @@ const Projects: React.FC = () => {
         <ProjectContainer>
           <img
             src="https://raw.githubusercontent.com/franciscovaz/be-the-hero/master/shots/login-light.png"
-            alt="Project XPTO"
+            alt="BeTheHero"
           />
           <div>
             <p>
-              Descrição do projeto com cenas aleatorias mas que de para ver que
-              é uma descrição mais ou menos com bom conteudo e seja possivel ver
-              corretamente como ira ficar nas varias plataformas
+              Application to connect people who want to help ONG&apos;s.
+              Developed from scratch with NodeJS, ReactJS and React Native
+              technologies. I went beyond the application that was developed on
+              OmniStack week from Rockeatseat&apos;s and added some features,
+              like: Switch to dark/light theme - Only on web app,
+              Styled-Components, EsLint and Prettier to standardize the code
             </p>
             <TechnologiesContainer>
               <p>ReactJS</p>
               <p>Typescript</p>
-              <p>Styled Components</p>
+              <p>API Context</p>
+              <p>React Native</p>
+              <p>NodeJS</p>
             </TechnologiesContainer>
             <ButtonsContainer>
               <button type="button">
-                <FaGithub /> Source
+                <a
+                  href="https://github.com/franciscovaz/be-the-hero.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub /> Source
+                </a>
               </button>
-              <button type="button">
+              {/* <button type="button">
                 <FaExternalLinkAlt /> Visit
-              </button>
+              </button> */}
             </ButtonsContainer>
           </div>
         </ProjectContainer>
