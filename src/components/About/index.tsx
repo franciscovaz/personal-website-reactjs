@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { FaGithub } from 'react-icons/fa';
 import {
   Container,
   AboutInfo,
@@ -75,17 +76,57 @@ const About: React.FC = () => {
             <li>
               <TimelineContent>
                 <h3>Self-taught</h3>
-                <p>Angular + Bootstrap 4: Build an app to regist occurences </p>
-                <p>
-                  HTML5 + CSS3 + Javascript: My personal website (where you are
-                  now)
+                <p style={{ textAlign: 'center' }}>
+                  <b>Applications:</b>
                 </p>
                 <p>
-                  React | React Native | Node.js: Build some projects in the 10
-                  Edition of GoStack - RocketSeat (On Going)
+                  <b>Registo de Ocorrências:</b> ReactJS + React Native + NodeJS
                 </p>
                 <p>
-                  2017: Build Wordpress website to Soluções Electrónicas:{' '}
+                  <b>Registo de Ocorrências:</b> Angular 7+ + Bootstrap 4 +
+                  NodeJS{' '}
+                  <a
+                    href="https://github.com/franciscovaz/occurrence-log.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaGithub />
+                  </a>
+                </p>
+                <p>
+                  <b>Francisco Vaz Portefolio:</b> ReactJS + Typescript +
+                  Context API + Styled-Components
+                </p>
+                <p>
+                  <b>GoBarber:</b> ReactJS + React Native + NodeJS
+                </p>
+                <p>
+                  <b>RecolhaECO:</b> ReactJS + React Native + NodeJS
+                </p>
+                <p>
+                  <b>Be The Hero:</b> ReactJS + React Native + NodeJS{' '}
+                </p>
+
+                <p>
+                  <b>1st. Version of Francisco Vaz Portefolio:</b> HTML5 + CSS3
+                  + Javascript{' '}
+                  <a
+                    href="https://github.com/franciscovaz/portefolio-site.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaGithub />
+                  </a>
+                </p>
+                <p>
+                  <b>React | React Native | Node.js:</b> Build projects in the
+                  10+ Editions of GoStack - RocketSeat (On Going)
+                </p>
+                <p style={{ textAlign: 'center' }}>
+                  <b>Websites:</b>
+                </p>
+                <p>
+                  2017: Wordpress website to Soluções Electrónicas:{' '}
                   <a
                     href="https://solucoeselectronicas.com/"
                     target="_blank"
@@ -95,7 +136,7 @@ const About: React.FC = () => {
                   </a>
                 </p>
                 <p>
-                  2016: Build and mantain Wordpress website to GJ a Tulha:{' '}
+                  2016: Wordpress website to GJ a Tulha:{' '}
                   <a
                     href="http://www.atulha.com/"
                     target="_blank"
@@ -107,7 +148,7 @@ const About: React.FC = () => {
                 </p>
               </TimelineContent>
               <div className="time">
-                <h4>2017 - present</h4>
+                <h4>2014 - present</h4>
               </div>
             </li>
 
