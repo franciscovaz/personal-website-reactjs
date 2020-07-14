@@ -66,7 +66,9 @@ const About: React.FC = () => {
             <li>
               <TimelineContent>
                 <h3>Altice Labs</h3>
-                <p>Frontend Developer - Angular 8 + Bootstrap</p>
+                <p>Frontend Developer: Angular 8 + Bootstrap + Javascript</p>
+                <p>Machine 2 Machine project to SFR, MEO and OI</p>
+                <p>Implement interfaces/features and fix issues</p>
               </TimelineContent>
               <div className="time">
                 <h4>2019 - present</h4>
@@ -119,8 +121,8 @@ const About: React.FC = () => {
                   </a>
                 </p>
                 <p>
-                  <b>React | React Native | Node.js:</b> Build projects in the
-                  10+ Editions of GoStack - RocketSeat (On Going)
+                  <b>Bootcamp GoStack - Rocketseat:</b> React | React Native |
+                  Node.js: Build projects (On Going)
                 </p>
                 <p style={{ textAlign: 'center' }}>
                   <b>Websites:</b>
@@ -155,10 +157,17 @@ const About: React.FC = () => {
             <li>
               <TimelineContent>
                 <h3>Renault-Nissan-Mitsubishi</h3>
-                <p>Software Developer. Angular 7 + Angular Material</p>
                 <p>
-                  Project Leader. Motivate team (internal and external) to work
-                  together on Industry 4.0 project
+                  Software Developer: Angular 7 + Typescript + Angular Material
+                </p>
+                <p>
+                  Developed an application to register the maintenance of the
+                  factory&apos;s machines. The app was used in 5 Reanult
+                  factories (3 in Spain/1 in Portugal/1 in Slovenia).
+                </p>
+                <p>
+                  Project Leader. Motivate internal and external team to work
+                  together on Industry 4.0 project.
                 </p>
               </TimelineContent>
               <div className="time">
