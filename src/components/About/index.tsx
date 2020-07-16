@@ -97,7 +97,7 @@ const About: React.FC = () => {
                 </p>
                 <p>
                   <b>Francisco Vaz Portefolio:</b> ReactJS + Typescript +
-                  Context API + Styled-Components
+                  Context API + Styled-Components + usePersistedState
                 </p>
                 <p>
                   <b>GoBarber:</b> ReactJS + React Native + NodeJS
