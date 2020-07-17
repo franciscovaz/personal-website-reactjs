@@ -47,7 +47,8 @@ const Projects: React.FC = () => {
             <TechnologiesContainer>
               <p>ReactJS / Angular 8</p>
               <p>Typescript</p>
-              <p>Styled Components</p>
+              <p>API Context</p>
+              {/* <p>Styled Components</p> */}
             </TechnologiesContainer>
             <ButtonsContainer>
               <button type="button">
