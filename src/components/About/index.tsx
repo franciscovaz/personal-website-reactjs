@@ -19,8 +19,8 @@ const About: React.FC = () => {
 
         <AboutInfo>
           <p>
-            Hey there! I&apos;m a Frontend Web Developer for Altice Labs and
-            Dellent in Aveiro, Portugal.
+            Hey there! I&apos;m a Frontend Web Developer at Bosch in Aveiro,
+            Portugal.
           </p>
 
           <p>
@@ -65,13 +65,25 @@ const About: React.FC = () => {
           <ul>
             <li>
               <TimelineContent>
+                <h3>Bosch</h3>
+                <p>
+                  Frontend Developer: Angular 8+ + NgRx + Angular Material +
+                  TypeScript
+                </p>
+              </TimelineContent>
+              <div className="time">
+                <h4>2021 - present</h4>
+              </div>
+            </li>
+            <li>
+              <TimelineContent>
                 <h3>Altice Labs</h3>
                 <p>Frontend Developer: Angular 8 + Bootstrap + Javascript</p>
                 <p>Machine 2 Machine project to SFR, MEO and OI</p>
                 <p>Implement interfaces/features and fix issues</p>
               </TimelineContent>
               <div className="time">
-                <h4>2019 - present</h4>
+                <h4>2019 - 2020</h4>
               </div>
             </li>
 
