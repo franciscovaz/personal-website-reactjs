@@ -93,7 +93,7 @@ const Projects: React.FC = () => {
             <ButtonsContainer>
               <button type="button">
                 <a
-                  href="https://github.com/franciscovaz/personal-website-reactjs.git"
+                  href="https://github.com/franciscovaz/website.git"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

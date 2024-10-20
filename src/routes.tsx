@@ -7,7 +7,7 @@ import Home from './pages/Home';
 
 const Routes: React.FC = () => {
   return (
-    <BrowserRouter basename="/personal-website-reactjs">
+    <BrowserRouter basename="/website">
       <Route path="/" exact component={Intro} />
       <Route path="/home" component={Home} />
     </BrowserRouter>
