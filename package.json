@@ -30,7 +30,7 @@
     "typescript": "~3.9.0"
   },
   "scripts": {
-    "predeploy": "npm run build build && node scripts/postBuild.js",
+    "predeploy": "yarn build && node scripts/postBuild.js",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

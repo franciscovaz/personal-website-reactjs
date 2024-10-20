@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import profileImageDark from '../../assets/perfil1.jpg';
+const profileImageDark = `${process.env.PUBLIC_URL}/assets/perfil1.jpg`;
 
 export const Container = styled.div`
   display: flex;
